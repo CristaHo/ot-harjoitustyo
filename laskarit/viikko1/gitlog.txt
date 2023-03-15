@@ -2,7 +2,7 @@ commit 632a9165907d8a2647e30fd96d0175d6acde038c
 Author: Crista <crista.holmstrom@outlook.com>
 Date:   Wed Mar 15 12:55:53 2023 +0200
 
-    Muutettu tiedostoja
+    Muutettu tiedostoja:
 
  tiedostoja/file2.txt                 | 0
  tiedostoja/{file1.txt => file22.txt} | 0
