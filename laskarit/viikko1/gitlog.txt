@@ -1,0 +1,114 @@
+commit 632a9165907d8a2647e30fd96d0175d6acde038c
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:55:53 2023 +0200
+
+    Muutettu tiedostoja
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 59bec7b1c0173e49ac24bd43694830d3cb4fa007
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:37:55 2023 +0200
+
+    uusi kansio ja tiedostoja
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f1c09daa164b6fcdb5ce4ef3b78518a719f2581e
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:30:45 2023 +0200
+
+    muutoksia tiedostoihin
+
+ eka.txt      | 2 +-
+ kolmas.txt   | 2 +-
+ tiedosto.txt | 4 ----
+ 3 files changed, 2 insertions(+), 6 deletions(-)
+
+commit da8537de04d5b3d494b87214b03dc51d09bdc736
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:28:38 2023 +0200
+
+    tiedosto.txt nimi muutettu eka.txt
+
+ eka.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 3fa7cb5ef73708e9185eaaae6d41e8c9bc271745
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:26:42 2023 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit c7b2d4bf25e66ca14976b30b29d80f79688384e1
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:22:50 2023 +0200
+
+    muutettu tekstiä tiedosto.txt
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ecd08cb65c18c868b0ecbe1c475d5591975bdb0f
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:20:47 2023 +0200
+
+    Lisätty tekstiä tiedosto.txt
+
+ tiedosto.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 78680ae7b13688a9564cdacabcbe9adcc752d60e
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:15:44 2023 +0200
+
+    uusi hakemisto stuff lisätty
+
+ stuff/stufftiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e8200d0b3ae2e47604a2e906c073ce5993dee6f2
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:13:40 2023 +0200
+
+    toinen.txt ja kolmas.txt muutettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 7c8c3abd71653b4344026183ea635167b2dee03f
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 12:11:10 2023 +0200
+
+    kolmas tiedosto luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 42517c3a9588c5c0d840e20b5f0b22d04bc984c9
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 11:43:59 2023 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 92f5782a1e2f5d37409cfe110a0cc26c53c65920
+Author: Crista <crista.holmstrom@outlook.com>
+Date:   Wed Mar 15 11:41:23 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
