@@ -1,4 +1,4 @@
-# Ohjelmistotekniikka harjoitukset
+# Ohjelmistotekniikka harjoitukset 2023
 
 Tähän tule **kaikki** tehdyt työni tällä kurssilla.
 Linkit alla:
