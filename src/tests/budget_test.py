@@ -10,7 +10,7 @@ class TestBudget(unittest.TestCase):
         budget.add_income(1500, "salary")
         budget.add_monthly_expense(500, "rent")
         
-        self.assertEqual(str(budget), "Kuukauden budjettisi on 1000 euroa")
+        self.assertEqual(str(budget), "Kuukauden budjettisi on 1000.00 euroa")
     
     def test_daily_budget(self):
         budget = Budget()
