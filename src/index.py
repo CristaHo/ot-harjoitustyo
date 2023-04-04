@@ -11,13 +11,13 @@ class Start:
         add_income_name = input("Mikä on tulon lähde: ") 
         self.budget = Budget()
         self.budget.add_income(add_income_amount, add_income_name)
-        add_monthly_expenses_amount = int(input("Lisää kuukausittainen meno: "))
-        add_monthly_expenses_name = input("Mikä on menon lähde: ")
+        add_monthly_expenses_amount = int(input("Lisää kuukausittainen meno (kokonaisluku): "))
+        add_monthly_expenses_name = input("Menon nimi (esim. vuokra, lasku): ")
         self.budget.add_monthly_expense(add_monthly_expenses_amount, add_monthly_expenses_name)
         add_more = input("Haluatko lisätä lisää kuukausittaisia menoja? (k/e)")
         while add_more == "k":
             add_monthly_expenses_amount = int(input("Lisää kuukausittainen meno: "))
-            add_monthly_expenses_name = input("Mikä on menon lähde: ")
+            add_monthly_expenses_name = input("Menon nimi (esim. vuokra, lasku): ")
             self.budget.add_monthly_expense(add_monthly_expenses_amount, add_monthly_expenses_name)
             add_more = input("Haluatko lisätä lisää kuukausittaisia menoja? (k/e)")
         

@@ -18,7 +18,7 @@ class TestBudget(unittest.TestCase):
         budget.add_monthly_expense(500, "rent")
         budget.buddget_defining()
 
-        self.assertEqual(str(budget.monthly_budget(1)), "Päivittäinen budjettisi on 50.0 euroa")
+        self.assertEqual(str(budget.monthly_budget(1)), "Päivittäinen budjettisi on 50.00 euroa")
     
     def test_weekly_budget(self):
         budget = Budget()
@@ -26,4 +26,4 @@ class TestBudget(unittest.TestCase):
         budget.add_monthly_expense(500, "rent")
         budget.buddget_defining()
 
-        self.assertEqual(str(budget.monthly_budget(2)), "Viikottainen budjettisi on 250.0 euroa")
+        self.assertEqual(str(budget.monthly_budget(2)), "Viikottainen budjettisi on 250.00 euroa")
