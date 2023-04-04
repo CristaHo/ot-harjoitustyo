@@ -1,9 +1,15 @@
-# Busjettisovellus
+# Budjettisovellus
 
 Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetissa pysyminen sujuu.
 
-Dokumentaatio:
+## Dokumentaatio:
 
-[Vaatimusmäärittely](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/vatimusmaarittely.md)
+- [Vaatimusmäärittely](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/vatimusmaarittely.md)
 
-[Työaikakirjanpito](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+- [Työaikakirjanpito](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+
+- [Changelog](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
+
+## Asennus
+
+- Kloonaa repositorio komennolla git clone 
