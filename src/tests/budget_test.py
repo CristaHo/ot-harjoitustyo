@@ -1,5 +1,5 @@
 import unittest
-from budgetapp import Budget
+from index import Budget
 
 class TestBudget(unittest.TestCase):
     def setUp(self):
