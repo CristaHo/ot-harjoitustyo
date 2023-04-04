@@ -1,5 +1,6 @@
-# Ohjelmistotekniikka-kurssin harjoitustyö
-##Budjettisovellus
+# Busjettisovellus
+
+Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetissa pysyminen sujuu.
 
 Dokumentaatio:
 
