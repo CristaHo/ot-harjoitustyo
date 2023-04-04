@@ -1,13 +1,6 @@
-# Ohjelmistotekniikka harjoitukset 2023
+# Busjettisovellus
 
-Tähän tule **kaikki** tehdyt työni tällä kurssilla.
-Linkit alla:
-
-[gitlog.txt](https://github.com/CristaHo/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
-
-[komentorivi.txt](https://github.com/CristaHo/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
-
-
+Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetissa pysyminen sujuu.
 
 Dokumentaatio:
 
