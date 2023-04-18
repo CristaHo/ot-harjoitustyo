@@ -7,7 +7,7 @@ Budjetointisovellus auttaa sinua suunnittelemaan talouttasi omien tulojesi ja me
 ## Perusversio
 
 ### Kirjautuminen
-- Käyttjä voi luoda käyttäjätunnuksen ja kirjautua sisään sillä
+- Käyttjä voi luoda käyttäjätunnuksen ja kirjautua sisään sillä -TEHTY
 - Jokainen käyttäjätunnus on uniikki
 
 ### Kirjautuneena

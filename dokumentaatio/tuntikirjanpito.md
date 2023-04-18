@@ -8,3 +8,9 @@
 | 30.3 | 3    | Luotu ensimmäiset testit ja kirjoitettu koodia |
 | 3.4  | 2    | Invoke otettu käyttöön, pientä lisäystä toimintoihin |
 | 4.4  | 3    | Testattu ohjelman toimivuus, lisätty toimintoja |
+| 5.4  | 2    | SQLite3 otettu käyttöön kirjautumisessa |
+| 11.4 | 3    | Aloitettu sovelluksen käyttöliittymän rakentaminen |
+| 17.4 | 5    | Käyttöliittymän ja muun toiminnan yhdistämistä ja testien kirjoittamista |
+| 18.4 | 4    | Dokumentaation päivitystä, pylintin käyttöönotto, toimivuuden testaamista | 
+
+Yhteensä 27 tuntia.
