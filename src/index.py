@@ -14,7 +14,7 @@ class Start():
 
     def start(self):
         self.root.title("Tervetuloa Budjettisovellukseen!")
-        self.root.geometry('600x500')
+        self.root.geometry('700x700')
         menu = Menu(self.root)
         item = Menu(menu)
         item.add_command(label='Uusi käyttäjä', command=self.new_user)
