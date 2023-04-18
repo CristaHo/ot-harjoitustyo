@@ -1,29 +1,13 @@
 import unittest
-from index import Budget
+from budget import Budget
 
-class TestBudget(unittest.TestCase):
+
+class TestUser(unittest.TestCase):
     def setUp(self):
         pass
 
-    def test_income_and_expenses(self):
-        budget = Budget()
-        budget.add_income(1500, "salary")
-        budget.add_monthly_expense(500, "rent")
+    def test_create_budget(self):
+        budget = Budget("1500", "500")
         
-        self.assertEqual(str(budget), "Kuukauden budjettisi on 1000.00 euroa")
-    
-    def test_daily_budget(self):
-        budget = Budget()
-        budget.add_income(2000, "salary")
-        budget.add_monthly_expense(500, "rent")
-        budget.buddget_defining()
-
-        self.assertEqual(str(budget.monthly_budget(1)), "Päivittäinen budjettisi on 50.00 euroa")
-    
-    def test_weekly_budget(self):
-        budget = Budget()
-        budget.add_income(1500, "salary")
-        budget.add_monthly_expense(500, "rent")
-        budget.buddget_defining()
-
-        self.assertEqual(str(budget.monthly_budget(2)), "Viikottainen budjettisi on 250.00 euroa")
+        
+        self.assertEqual(budget.create_budget(), 1000)
