@@ -24,4 +24,5 @@ Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetiss
 
 - Testit saa tehtyä komennolla poetry run invoke test
 - Testikattavuusraportin saa generoitua komennolla poetry run invoke coverage-report
+- Koodin laadun voi testata komennolla poetry run invoke lint
 
