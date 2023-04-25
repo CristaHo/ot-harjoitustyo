@@ -1,6 +1,6 @@
 # Budjettisovellus
 
-Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetissa pysyminen sujuu.
+Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetissa pysyminen sujuu. Tällä hetkellä sovelluksessa saa taulukkonäkymän toimimaan vain jos valitsee aloitus- ja lopetuspäivämäärän samalta kuukaudelta.
 
 ## Dokumentaatio:
 
