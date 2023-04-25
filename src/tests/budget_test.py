@@ -7,7 +7,7 @@ class TestUser(unittest.TestCase):
         pass
 
     def test_create_budget(self):
-        budget = Budget("1500", "500")
+        budget = Budget("1500", "500", 30)
         
         
         self.assertEqual(budget.create_budget(), 1000)
