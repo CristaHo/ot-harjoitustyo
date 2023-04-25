@@ -12,5 +12,8 @@
 | 11.4 | 3    | Aloitettu sovelluksen käyttöliittymän rakentaminen |
 | 17.4 | 5    | Käyttöliittymän ja muun toiminnan yhdistämistä ja testien kirjoittamista |
 | 18.4 | 4    | Dokumentaation päivitystä, pylintin käyttöönotto, toimivuuden testaamista | 
+| 21.4 | 2    | csv-tiedostojen käyttöönotto ja testaus |
+| 24.4 | 4    | csv yhdistetty osaksi sovellusta |
+| 25.4 | 5    | Ulkoasua ja bugeja päivitetty, dokumentaatio päivitetty |
 
-Yhteensä 27 tuntia.
+Yhteensä 38 tuntia.

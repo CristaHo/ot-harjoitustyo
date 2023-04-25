@@ -14,7 +14,7 @@ Budjetointisovellus auttaa sinua suunnittelemaan talouttasi omien tulojesi ja me
 
 - Sovellukseen voi syöttää tietoja tuloista ja menoista, jolloin sovellus antaa ehdotuksia
  budjetista ja rahan käytöstä
-- Omaa kulutustaan voi seurata syöttämällä tietoja esimerkiksi päivittäisestä kulutuksestaan
+- Omaa kulutustaan voi seurata syöttämällä tietoja esimerkiksi päivittäisestä kulutuksestaan -TEHTY
  
 
 ## Jatkokehitys:

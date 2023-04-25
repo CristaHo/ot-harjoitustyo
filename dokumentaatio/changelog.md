@@ -15,3 +15,11 @@
 - Otettu tietokanta käyttöön rekisteröitymisessä ja kirjautumisessa
 - Sovellukseen pystyy nyt rekisteröimään käytäjän ja kirjautumaan sillä sisään.
 - Käyttöliittymän ja edellisen viikon toiminnot yhdistetty ja eriytetty omiksi luokikseen. 
+
+### viikko5
+
+- Käyttöliittymää siistitty aloitussivun, rekisteröimisen ja kirjautumisen osalta
+- Otettu csv-tiedostot käyttöön menojen tallennusta varten
+- Budjetti-listaan pystyy nyt lisäämään menoja erillisen napin kautta
+- Lisätyt menot näkyvät budjetti-listassa
+- Menot tallentuvat csv-tiedostoon, josta ne haetaan listaan
