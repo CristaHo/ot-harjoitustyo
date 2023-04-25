@@ -15,8 +15,8 @@ class BudgetList():
             expenses_list = csv_search.read_file(csv_filename)
             if not expenses_list:
                 expenses_list = {0: 0}
-            print(expenses_list)
-            print(start_date)
+            #print(expenses_list)
+            #print(start_date)
 
         for i in range(0,days+1):
             for j in range(1,5):

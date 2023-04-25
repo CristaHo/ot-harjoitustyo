@@ -20,7 +20,7 @@ class CSVfiles:
                 amount = section[1]
                 what = section[2]
                 dictionary[day] = [amount, what]
-                print(dictionary)
+                #print(dictionary)
         return dictionary
 
 #write = CSVfiles()
