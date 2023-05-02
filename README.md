@@ -12,6 +12,8 @@ Sovellus jolla voit laskea itsellesi budjetin ja pitää kirjaa kuinka budjetiss
 
 - [Arkkitehtuuri](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
+- [Käyttöohje](https://github.com/CristaHo/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 ## Asennus
 
 - Kloonaa repositorio komennolla git clone https://github.com/CristaHo/ot-harjoitustyo.git
