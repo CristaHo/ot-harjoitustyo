@@ -13,12 +13,15 @@ Sovelluslogiikasta vastaa:
 - BudgetList-luokka (hakee csv tiedostot, sekä näyttää tiedot taulukossa)
 - CSV-files-luokka (kirjoittaa CSV-tiedostoon ja hakee sieltä tietoja)
 
-## Tietojen pysyäistallennus
+### Luokkakaavio käyttöliittymä-luokkien ja sovelluslogiikka-luokkien suhteista.
+![Luokkakaavio](./kuvat/luokkakaavio.drawio.png)
+
+### Tietojen pysyäistallennus
 Rekisteröitymis- ja kirjautumistietojen tallennuksesta ja hakemisesta SQL-tietokannan taulusta Users, vastaa User-Repository-luokka. Tässä luokassa create_user(username, password) lisää uuden käyttäjän tietokantatauluun ja find_user(username, password) etsii vastaavaa käyttäjänimi-salasana-paria samasta tietokanta-taulusta.
 
 Menojen kirjaamisesta CSV-tiedostoon sekä tietojen hausta tiedostosta, vastaa CSVfiles-luokka. Tässä luokassa write_to_file-funktio kirjaa tiedot CSV-tiedostoon ja luo samalla tiedoston jos tiedostoa ei vielä ole olemassa. Tiedosto luodaan käyttämällä valitun päivämäärän kuukautta ja vuotta, month_year_budget.csv. Funktio read_file hakee tiedot halutusta tiedostosta ja jos tiedostoa ei ole olemassa, funktio luo sen.
 
+### Päätoiminnallisuudet
 
-![Luokkakaavio](./kuvat/luokkakaavio.drawio.png)
 
 ![Sekvenssikaavio](./kuvat/kirjautuminen.png)
