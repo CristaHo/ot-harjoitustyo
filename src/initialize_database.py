@@ -17,7 +17,7 @@ def create_tables(connection):
     cursor.execute('''
         create table users (
             id primary key,
-            username text,
+            username text UNIQUE,
             password text
         );
     ''')

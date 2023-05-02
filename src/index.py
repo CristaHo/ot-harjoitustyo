@@ -1,18 +1,26 @@
 from tkinter import ttk, Tk
-from users import NewUser, OldUser
+from users_ui import NewUser, OldUser
 
 class Start():
+    """This is where the program starts by opening the first TkInter-window
+    """
     root = Tk()
 
     def new_user(self):
+        """This function calls the NewUser class to register a new username.
+        """
         new_user = NewUser()
         new_user.user_info()
 
     def old_user(self):
+        """This function calls the OldUser class to login user.
+        """
         old_user = OldUser()
         old_user.user_info()
 
     def start(self):
+        """This function generates the first view of the application and asks the user if they have registered or not.
+        """
         self.root.title("Tervetuloa Budjettisovellukseen!")
         self.root.geometry('500x250')
         #menu = Menu(self.root)

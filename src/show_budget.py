@@ -13,10 +13,23 @@ class BudgetList():
             csv_filename = f"{month}_{year}_budget"
             csv_search = CSVfiles()
             expenses_list = csv_search.read_file(csv_filename)
-            if not expenses_list:
+            if len(expenses_list) == 0:
                 expenses_list = {0: 0}
-            #print(expenses_list)
+            print(expenses_list)
             #print(start_date)
+        
+        else:
+            first_month = start_date.month
+            first_year = start_date.year
+            second_month = end_date.month
+            second_year = end_date.year
+            csv_filename_one = f"{first_month}_{first_year}_budget"
+            csv_filename_two = f"{second_month}_{second_year}_budget"
+            csv_search = CSVfiles()
+            expenses_list = {**csv_search.read_file(csv_filename_one), **csv_search.read_file(csv_filename_two)}
+            if len(expenses_list) == 0:
+                expenses_list = {0: 0}
+            print(expenses_list)
 
         for i in range(0,days+1):
             for j in range(1,5):

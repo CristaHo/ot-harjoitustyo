@@ -1,3 +1,3 @@
 [run]
 source = src
-omit = src/**/__init__.py,src/tests/**, src/database_connection.py, src/initialize_database.py, src/tasks.py, src/users_one.py, src/index.py, src/kalenteri.py, src/old_user.py, src/show_budget.py, src/vanha_versio.py, src/config.py, src/csv_file_management.py
+omit = src/**/__init__.py,src/tests/**, src/database_connection.py, src/initialize_database.py, src/tasks.py, src/users_one.py, src/index.py, src/kalenteri.py, src/old_user.py, src/show_budget.py, src/vanha_versio.py, src/config.py, src/csv_file_management.py, src/budget_ui.py, src/users_ui.py

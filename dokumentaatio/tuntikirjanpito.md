@@ -15,5 +15,9 @@
 | 21.4 | 2    | csv-tiedostojen käyttöönotto ja testaus |
 | 24.4 | 4    | csv yhdistetty osaksi sovellusta |
 | 25.4 | 5    | Ulkoasua ja bugeja päivitetty, dokumentaatio päivitetty |
+| 27.4 | 3    | csv-tiedostojen hakujen päivitys |
+| 28.4 | 2    | Käyttöliittymän eriyttämistä muusta koodista |
+| 2.5  | 3    | Dokumentattion päivitys, käyttöohjeen luonti |
 
-Yhteensä 38 tuntia.
+
+Yhteensä 46 tuntia.

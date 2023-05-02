@@ -16,10 +16,15 @@
 - Sovellukseen pystyy nyt rekisteröimään käytäjän ja kirjautumaan sillä sisään.
 - Käyttöliittymän ja edellisen viikon toiminnot yhdistetty ja eriytetty omiksi luokikseen. 
 
-### viikko5
+### viikko 5
 
 - Käyttöliittymää siistitty aloitussivun, rekisteröimisen ja kirjautumisen osalta
 - Otettu csv-tiedostot käyttöön menojen tallennusta varten
 - Budjetti-listaan pystyy nyt lisäämään menoja erillisen napin kautta
 - Lisätyt menot näkyvät budjetti-listassa
 - Menot tallentuvat csv-tiedostoon, josta ne haetaan listaan
+
+### viikko 6
+
+- Muokattu csv-tiedostojen hakua niin, että alku- ja loppupäivämäärä budjetille voivat olla eri kuukausilta.
+- Eriytetty käyttöliittymää paremmin muusta koodista 
