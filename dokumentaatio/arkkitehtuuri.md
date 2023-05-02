@@ -22,6 +22,13 @@ Rekisteröitymis- ja kirjautumistietojen tallennuksesta ja hakemisesta SQL-tieto
 Menojen kirjaamisesta CSV-tiedostoon sekä tietojen hausta tiedostosta, vastaa CSVfiles-luokka. Tässä luokassa write_to_file-funktio kirjaa tiedot CSV-tiedostoon ja luo samalla tiedoston jos tiedostoa ei vielä ole olemassa. Tiedosto luodaan käyttämällä valitun päivämäärän kuukautta ja vuotta, month_year_budget.csv. Funktio read_file hakee tiedot halutusta tiedostosta ja jos tiedostoa ei ole olemassa, funktio luo sen.
 
 ### Päätoiminnallisuudet
+Seuraavaksi kuvataan muutamia sovelluksen toiminnallisuuksia:
 
-
+Kirjautuminen
 ![Sekvenssikaavio](./kuvat/kirjautuminen.png)
+Kirjautuessa käyttjä syöttää käyttöliittymän avulla käyttäjänimen ja salasana, jotka OldUser-luokka lähettää UserRepository-luokalle tarkistettavaksi. Jos tämä käyttäänimi-salasana-yhdistelmä löytyy tietokannasta, sulkeutuu kirjautumis-ikkuna ja budjetti-ikkuna avautuu.
+
+
+
+### Heikkoudet
+Show_budget moduulia ei ole vielä eriytetty ja käyttöliittymää pitää vielä selkeyttää.
