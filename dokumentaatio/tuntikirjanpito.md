@@ -18,6 +18,8 @@
 | 27.4 | 3    | csv-tiedostojen hakujen päivitys |
 | 28.4 | 2    | Käyttöliittymän eriyttämistä muusta koodista |
 | 2.5  | 3    | Dokumentattion päivitys, käyttöohjeen luonti |
+| 8.5  | 2    | Päivitetty ulkoasua lopulliseen muotoon |
+| 12.5 | 3    | Viimeistelty koodia, päivitetty dokumentaatiota |
+| 14.5 | 4    | Päivitetty dokumentaatiota, tehty pieniä muutoksia |
 
-
-Yhteensä 46 tuntia.
+Yhteensä 55 tuntia.

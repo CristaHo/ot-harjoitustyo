@@ -7,14 +7,12 @@ Budjetointisovellus auttaa sinua suunnittelemaan talouttasi omien tulojesi ja me
 ## Perusversio
 
 ### Kirjautuminen
-- Käyttjä voi luoda käyttäjätunnuksen ja kirjautua sisään sillä -TEHTY
-- Jokainen käyttäjätunnus on uniikki -TEHTY
+- Käyttjä voi luoda käyttäjätunnuksen ja kirjautua sisään sillä
+- Jokainen käyttäjätunnus on uniikki 
 
 ### Kirjautuneena
-
-- Sovellukseen voi syöttää tietoja tuloista ja menoista, jolloin sovellus antaa ehdotuksia
- budjetista ja rahan käytöstä 
-- Omaa kulutustaan voi seurata syöttämällä tietoja esimerkiksi päivittäisestä kulutuksestaan -TEHTY
+- Sovellukseen voi syöttää tietoja tuloista ja menoista, jolloin sovellus luo budjetin halutulle aikavälille 
+- Omaa kulutustaan voi seurata syöttämällä menoja ja tutkimalla niitä taulukosta.
  
 
 ## Jatkokehitys:

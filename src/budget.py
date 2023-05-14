@@ -8,8 +8,8 @@ class Budget():
         self.budget_days = days
 
     def create_budget(self):
-        new_income = int(self.income)
-        new_expenses = int(self.expenses)
+        new_income = float(self.income)
+        new_expenses = float(self.expenses)
         self.budgetti = new_income - new_expenses
         return self.budgetti
 
