@@ -28,3 +28,9 @@
 
 - Muokattu csv-tiedostojen hakua niin, että alku- ja loppupäivämäärä budjetille voivat olla eri kuukausilta.
 - Eriytetty käyttöliittymää paremmin muusta koodista 
+
+### viikko 7 = Loppupalautus
+
+- Eriytetty budjettitaulukon sovelluslogiikka käyttöliittymästä.
+- Muokattu päivämäärät siistimmiksi
+- Tehty lopullinen muotoilu käyttöliittymälle.
