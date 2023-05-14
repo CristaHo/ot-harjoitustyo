@@ -24,11 +24,18 @@ Menojen kirjaamisesta CSV-tiedostoon sekä tietojen hausta tiedostosta, vastaa C
 ### Päätoiminnallisuudet
 Seuraavaksi kuvataan muutamia sovelluksen toiminnallisuuksia:
 
-Kirjautuminen
 ![Sekvenssikaavio](./kuvat/kirjautuminen.png)
+
+#### Kirjautuminen
 Kirjautuessa käyttjä syöttää käyttöliittymän avulla käyttäjänimen ja salasana, jotka OldUser-luokka lähettää UserRepository-luokalle tarkistettavaksi. Jos tämä käyttäänimi-salasana-yhdistelmä löytyy tietokannasta, sulkeutuu kirjautumis-ikkuna ja budjetti-ikkuna avautuu.
 
+#### Uuden käyttäjän luominen
+
+#### Budjetin luominen
+
+#### Seuranta
 
 
 ### Heikkoudet
-Show_budget moduulia ei ole vielä eriytetty ja käyttöliittymää pitää vielä selkeyttää.
+- CSV-tiedostoja ei voi poistaa ja yhdeltä koneelta voi vain yksi käyttäjä siksi käyttää sovellusta
+
