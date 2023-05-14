@@ -26,7 +26,7 @@ class NewUser():
         customtkinter.CTkLabel(new_user_frame, text='Luo salasana',
             font=customtkinter.CTkFont(size=14)).grid(row=1, padx=5, pady=5)
         new_username = customtkinter.CTkEntry(new_user_frame)
-        new_password = customtkinter.CTkEntry(new_user_frame)
+        new_password = customtkinter.CTkEntry(new_user_frame, show="*")
         new_username.grid(row=0, column=1, padx=5, pady=5)
         new_password.grid(row=1, column=1, padx=5, pady=5)
         #new_username = input("Valitse käyttäjätunnus: ")
@@ -63,7 +63,7 @@ class OldUser():
         customtkinter.CTkLabel(old_user_frame, text='Salsana',
             font=customtkinter.CTkFont(size=14)).grid(row=1, padx=5, pady=5)
         username = customtkinter.CTkEntry(old_user_frame)
-        password = customtkinter.CTkEntry(old_user_frame)
+        password = customtkinter.CTkEntry(old_user_frame, show="*")
         username.grid(row=0, column=1, padx=5, pady=5)
         password.grid(row=1, column=1, padx=5, pady=5)
         btn = customtkinter.CTkButton(old_user_frame, text = "Kirjaudu",
