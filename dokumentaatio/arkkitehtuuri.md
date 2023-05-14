@@ -33,7 +33,7 @@ Kirjautuessa käyttjä syöttää käyttöliittymän avulla käyttäjänimen ja 
 Uuden käyttäjän luonnissa käyttäjä syöttää käyttöliittymän avulla halauamansa tunnuksen ja salasanan, jotka NewUser-luokka lähettää UserRepository-luokalle. UserRepository lisää käyttäjätunnuksen ja salasanan tietokantaan.
 
 #### Budjetin luominen
-Kun luodaan budjetti, tulee käyttäjän ensin valita haluamansa päivämäärät käyttöliittymän ja BudgetUi-luokan avulla. Tämän jälkeen lisätään saman luokan avulla 
+Kun luodaan budjetti, tulee käyttäjän ensin valita haluamansa päivämäärät käyttöliittymän ja BudgetUi-luokan avulla. Tämän jälkeen lisätään saman luokan avulla tulot ja menot omiin kenttiinsä. Nämä lähetetään Budget-luokalle, joka laskee tietojen avulla budjetin ja paluttaa tiedon BudgetUi:lle.
 
 
 
