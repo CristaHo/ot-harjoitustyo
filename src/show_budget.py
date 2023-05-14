@@ -1,18 +1,11 @@
-from tkinter import ttk
 from datetime import timedelta
 import customtkinter
-#from turtle import bgcolor
 from csv_file_management import CSVfiles
 
 
 
 class BudgetList():
     def budget_table(self, budget, days, start_date, end_date):
-        #self.budget = budget
-        #self.days = days
-        #self.start_date = start_date
-        
-
         if start_date.month == end_date.month:
             month = start_date.month
             year = start_date.year
@@ -37,10 +30,10 @@ class BudgetList():
             if len(expenses_list) == 0:
                 expenses_list = {0: 0}
             print(expenses_list)
-        
+
         list_ui = BudgetListUi()
         list_ui.budget_table_creation(start_date, days, budget, expenses_list)
-            
+
 class BudgetListUi():
     def budget_table_creation(self, start_date, days, budget, expenses_list):
         customtkinter.set_appearance_mode("light")
@@ -83,13 +76,14 @@ class BudgetListUi():
                             text=expenses_list[str(start_date)][1]).grid(row=i,
                                                                         column=j)
                     if j == 4:
-                        label4 = customtkinter.CTkLabel(frame, text=f"{(budget-float(expenses_list[str(start_date)][0])):.2f}")
+                        label4 = customtkinter.CTkLabel(frame,
+                            text=f"{(budget-float(expenses_list[str(start_date)][0])):.2f}")
                         label4.grid(row=i, column=j)
                 else:
                     if j == 1:
                         customtkinter.CTkLabel(frame, text=start_date).grid(row=i, column=j)
                     if j == 2:
-                       customtkinter.CTkLabel(frame, text="0").grid(row=i, column=j)
+                        customtkinter.CTkLabel(frame, text="0").grid(row=i, column=j)
                     if j == 3:
                         customtkinter.CTkLabel(frame, text="").grid(row=i, column=j)
                     if j == 4:
@@ -99,7 +93,6 @@ class BudgetListUi():
                 start_date += timedelta(days=1)
         frame.grid(pady=10, padx=10)
         root.mainloop()
-        
+ 
 
-#budgetlist = BudgetList()
-#budgetlist.budget_table(20, 31, datetime(2023, 4, 1), datetime(2023, 4, 30))
+

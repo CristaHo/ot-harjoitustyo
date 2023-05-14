@@ -58,8 +58,6 @@ class OldUser():
                 to_budget.start_ui()
             else:
                 messagebox.showerror("Virhe", "Käyttäjätunnusta ei löydy")
-            #messagebox.showinfo("showinfo", "Uusi käyttäjä luotu. Voit nyt kirjautua sisään!")
-            #new_user.destroy()
         customtkinter.CTkLabel(old_user_frame, text='Käyttäjätunnus',
             font=customtkinter.CTkFont(size=14)).grid(row=0, padx=5, pady=5)
         customtkinter.CTkLabel(old_user_frame, text='Salsana',
@@ -68,8 +66,6 @@ class OldUser():
         password = customtkinter.CTkEntry(old_user_frame)
         username.grid(row=0, column=1, padx=5, pady=5)
         password.grid(row=1, column=1, padx=5, pady=5)
-        #new_username = input("Valitse käyttäjätunnus: ")
-        #new_password = input("Valitse salasana: ")
         btn = customtkinter.CTkButton(old_user_frame, text = "Kirjaudu",
             font=customtkinter.CTkFont(size=14),
                 command=check)

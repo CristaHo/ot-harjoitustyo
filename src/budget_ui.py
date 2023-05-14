@@ -1,7 +1,5 @@
-#from calendar import c
-from tkinter import messagebox, constants
+from tkinter import constants
 import customtkinter
-#from turtle import width
 from tkcalendar import DateEntry
 from CTkMessagebox import CTkMessagebox
 from show_budget import BudgetList
@@ -69,13 +67,14 @@ class BudgetUi:
         expense.add_to_budget()
         self.add_expense_window.destroy()
         CTkMessagebox(title="Lisäys onnistui!",
-                    message=f"Meno lisätty budjettiin", icon="check")
-        
+                    message="Meno lisätty budjettiin", icon="check")
+
 
 
     def _show_budget(self):
         """This function shows the new budget to the user
         """
+
         self.budget = Budget(self.income.get(), self.expenses.get(), self.number_of_days)
         self._delete_frame()
         self.budget_frame = customtkinter.CTkFrame(self.root)
@@ -193,5 +192,4 @@ class BudgetUi:
 
 
 
-budjetti = BudgetUi()
-budjetti.start_ui()
+
